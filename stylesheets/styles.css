@@ -1,11 +1,14 @@
+/*Custom Font*/
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
 /* Style the header */
 .page-title {
-    padding: 80px;
+    padding: 60px;
+    font-family: 'Days One', sans-serif;
     text-align: center;
     background:  #0073e6;
     color: white;
-  }
-
+}
   ul.no-bullets {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
