@@ -1,5 +1,6 @@
 /*Custom Font*/
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 /* Style the header */
 .page-title {
@@ -16,6 +17,7 @@
   }
 /* Style the tab */
 .tab {
+    font-family: 'Roboto Mono', monospace;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
@@ -33,7 +35,7 @@
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    background-color: #ddd;
+    background-color: #0073e6;
   }
   
   /* Create an active/current tablink class */
